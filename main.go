@@ -10,6 +10,7 @@ import (
 import (
 	"flag"
 	"net/url"
+	"time"
 )
 
 var port = *flag.Int("port", 5001, "Port the stub will listen to")
@@ -44,6 +45,9 @@ func stubHandler(w http.ResponseWriter, r *http.Request) {
 	switch(lat) {
 	case "-27.468":
 		templates.ExecuteTemplate(w, "brisbane", data)
+	case "-33.867":
+		time.Sleep(10 * time.Second)
+		templates.ExecuteTemplate(w, "sydney", data)
 	case "-10.500":
 		templates.ExecuteTemplate(w, "badRequest", nil)
 	case "-10.404":
