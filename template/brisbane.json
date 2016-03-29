@@ -1,0 +1,145 @@
+{{define "brisbane"}}
+{
+  "message": "accurate",
+  "cod": "200",
+  "count": {{ .cnt }},
+  "list": [
+    {
+      "id": 2174003,
+      "name": "Brisbane",
+      "coord": {
+        "lon": 153.028091,
+        "lat": -27.467939
+      },
+      "main": {
+        "temp": 297.65,
+        "pressure": 1017,
+        "humidity": 73,
+        "temp_min": 297.15,
+        "temp_max": 298.45
+      },
+      "dt": 1459243141,
+      "wind": {
+        "speed": 4.1,
+        "deg": 40
+      },
+      "sys": {
+        "country": ""
+      },
+      "clouds": {
+        "all": 20
+      },
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "few clouds",
+          "icon": "02n"
+        }
+      ]
+    } {{if gt .cnt 1}},
+    {
+      "id": 2148627,
+      "name": "Spring Hill",
+      "coord": {
+        "lon": 153.023117,
+        "lat": -27.461411
+      },
+      "main": {
+        "temp": 297.68,
+        "pressure": 1017,
+        "humidity": 73,
+        "temp_min": 297.15,
+        "temp_max": 298.25
+      },
+      "dt": 1459243681,
+      "wind": {
+        "speed": 4.1,
+        "deg": 40
+      },
+      "sys": {
+        "country": ""
+      },
+      "clouds": {
+        "all": 20
+      },
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "few clouds",
+          "icon": "02n"
+        }
+      ]
+    }{{end}}{{if gt .cnt 2}},
+    {
+      "id": 2207259,
+      "name": "South Brisbane",
+      "coord": {
+        "lon": 153.016663,
+        "lat": -27.48333
+      },
+      "main": {
+        "temp": 297.74,
+        "pressure": 1017,
+        "humidity": 73,
+        "temp_min": 297.15,
+        "temp_max": 298.35
+      },
+      "dt": 1459243334,
+      "wind": {
+        "speed": 4.1,
+        "deg": 40
+      },
+      "sys": {
+        "country": ""
+      },
+      "clouds": {
+        "all": 20
+      },
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "few clouds",
+          "icon": "02n"
+        }
+      ]
+    }{{end}}{{if gt .cnt 3}},
+    {
+      "id": 6943577,
+      "name": "Fortitude Valley",
+      "coord": {
+        "lon": 153.034744,
+        "lat": -27.45718
+      },
+      "main": {
+        "temp": 297.68,
+        "pressure": 1017,
+        "humidity": 73,
+        "temp_min": 297.15,
+        "temp_max": 298.25
+      },
+      "dt": 1459243681,
+      "wind": {
+        "speed": 4.1,
+        "deg": 40
+      },
+      "sys": {
+        "country": ""
+      },
+      "clouds": {
+        "all": 20
+      },
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "few clouds",
+          "icon": "02n"
+        }
+      ]
+    }{{end}}
+  ]
+}
+{{end}}

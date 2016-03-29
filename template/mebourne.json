@@ -1,0 +1,352 @@
+{{define "melbourne"}}
+{
+  "message": "accurate",
+  "cod": "200",
+  "count": 10,
+  "list": [
+    {
+      "id": 2158177,
+      "name": "Melbourne",
+      "coord": {
+        "lon": 144.963318,
+        "lat": -37.813999
+      },
+      "main": {
+        "temp": 289.19,
+        "pressure": 1020,
+        "humidity": 63,
+        "temp_min": 288.95,
+        "temp_max": 289.55
+      },
+      "dt": 1459238697,
+      "wind": {
+        "speed": 6.2,
+        "deg": 160
+      },
+      "sys": {
+        "country": ""
+      },
+      "clouds": {
+        "all": 90
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ]
+    },
+    {
+      "id": 7281818,
+      "name": "West Melbourne",
+      "coord": {
+        "lon": 144.949997,
+        "lat": -37.810139
+      },
+      "main": {
+        "temp": 289.19,
+        "pressure": 1020,
+        "humidity": 63,
+        "temp_min": 288.95,
+        "temp_max": 289.55
+      },
+      "dt": 1459238894,
+      "wind": {
+        "speed": 6.2,
+        "deg": 160
+      },
+      "sys": {
+        "country": ""
+      },
+      "clouds": {
+        "all": 90
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ]
+    },
+    {
+      "id": 7281804,
+      "name": "North Melbourne",
+      "coord": {
+        "lon": 144.948166,
+        "lat": -37.802891
+      },
+      "main": {
+        "temp": 289.18,
+        "pressure": 1019,
+        "humidity": 51,
+        "temp_min": 288.95,
+        "temp_max": 289.55
+      },
+      "dt": 1459238418,
+      "wind": {
+        "speed": 6.7,
+        "deg": 170
+      },
+      "sys": {
+        "country": ""
+      },
+      "clouds": {
+        "all": 75
+      },
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04d"
+        }
+      ]
+    },
+    {
+      "id": 7839805,
+      "name": "Melbourne",
+      "coord": {
+        "lon": 144.944214,
+        "lat": -37.813061
+      },
+      "main": {
+        "temp": 289.19,
+        "pressure": 1020,
+        "humidity": 63,
+        "temp_min": 288.95,
+        "temp_max": 289.55
+      },
+      "dt": 1459238697,
+      "wind": {
+        "speed": 6.2,
+        "deg": 160
+      },
+      "sys": {
+        "country": ""
+      },
+      "clouds": {
+        "all": 90
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ]
+    },
+    {
+      "id": 7302683,
+      "name": "Southbank",
+      "coord": {
+        "lon": 144.96434,
+        "lat": -37.8228
+      },
+      "main": {
+        "temp": 289.19,
+        "pressure": 1020,
+        "humidity": 63,
+        "temp_min": 288.95,
+        "temp_max": 289.55
+      },
+      "dt": 1459238894,
+      "wind": {
+        "speed": 6.2,
+        "deg": 160
+      },
+      "sys": {
+        "country": ""
+      },
+      "clouds": {
+        "all": 90
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ]
+    },
+    {
+      "id": 2171000,
+      "name": "Collingwood",
+      "coord": {
+        "lon": 144.983337,
+        "lat": -37.799999
+      },
+      "main": {
+        "temp": 289.19,
+        "pressure": 1020,
+        "humidity": 63,
+        "temp_min": 288.95,
+        "temp_max": 289.55
+      },
+      "dt": 1459238894,
+      "wind": {
+        "speed": 6.2,
+        "deg": 160
+      },
+      "sys": {
+        "country": ""
+      },
+      "clouds": {
+        "all": 90
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ]
+    },
+    {
+      "id": 6952201,
+      "name": "East Melbourne",
+      "coord": {
+        "lon": 144.9879,
+        "lat": -37.816669
+      },
+      "main": {
+        "temp": 289.19,
+        "pressure": 1020,
+        "humidity": 63,
+        "temp_min": 288.95,
+        "temp_max": 289.55
+      },
+      "dt": 1459238894,
+      "wind": {
+        "speed": 6.2,
+        "deg": 160
+      },
+      "sys": {
+        "country": ""
+      },
+      "clouds": {
+        "all": 90
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ]
+    },
+    {
+      "id": 2148955,
+      "name": "South Melbourne",
+      "coord": {
+        "lon": 144.966675,
+        "lat": -37.833328
+      },
+      "main": {
+        "temp": 289.19,
+        "pressure": 1020,
+        "humidity": 63,
+        "temp_min": 288.95,
+        "temp_max": 289.55
+      },
+      "dt": 1459238894,
+      "wind": {
+        "speed": 6.2,
+        "deg": 160
+      },
+      "sys": {
+        "country": ""
+      },
+      "rain": {
+        "3h": 0.0075
+      },
+      "clouds": {
+        "all": 90
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ]
+    },
+    {
+      "id": 2148876,
+      "name": "South Yarra",
+      "coord": {
+        "lon": 144.983337,
+        "lat": -37.833328
+      },
+      "main": {
+        "temp": 289.19,
+        "pressure": 1020,
+        "humidity": 63,
+        "temp_min": 288.95,
+        "temp_max": 289.55
+      },
+      "dt": 1459238894,
+      "wind": {
+        "speed": 6.2,
+        "deg": 160
+      },
+      "sys": {
+        "country": ""
+      },
+      "clouds": {
+        "all": 90
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ]
+    },
+    {
+      "id": 2166584,
+      "name": "Fitzroy",
+      "coord": {
+        "lon": 144.983337,
+        "lat": -37.783329
+      },
+      "main": {
+        "temp": 289.19,
+        "pressure": 1020,
+        "humidity": 63,
+        "temp_min": 288.95,
+        "temp_max": 289.55
+      },
+      "dt": 1459238894,
+      "wind": {
+        "speed": 6.2,
+        "deg": 160
+      },
+      "sys": {
+        "country": ""
+      },
+      "clouds": {
+        "all": 90
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ]
+    }
+  ]
+}
+{{end}}
