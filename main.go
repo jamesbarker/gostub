@@ -46,7 +46,6 @@ func stubHandler(w http.ResponseWriter, r *http.Request) {
 	case "-10.404":
 		http.NotFound(w, r)
 	default:
-		log.Println("HELLO?")
 		http.ServeFile(w, r, "data/melbourne.json")
 	}
 }
