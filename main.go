@@ -30,10 +30,7 @@ func stubHandler(w http.ResponseWriter, r *http.Request) {
 
 	lat := urlParams["lat"][0]
 	cnt, _ := strconv.Atoi(urlParams["cnt"][0])
-
-	data := map[string]interface{}{
-		"cnt": cnt,
-	}
+	data := map[string]interface{}{"cnt": cnt }
 
 	switch(lat) {
 	case "-27.468":
