@@ -1,3 +1,0 @@
-{{define "badRequest"}}
-{"message":"bad request","cod":"500"}
-{{end}}

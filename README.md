@@ -13,7 +13,7 @@ Demonstrates building a simple stub for the web service http://api.openweatherma
  http://api.openweathermap.org/data/2.5/find?appid=0a12b8f2f0dd011ed6085cb995ff61b4&lat=-37.814&lon=144.963&cnt=2
 * Count with if's:
  http://localhost:5001/data/2.5/find?appdid=0a12b8f2f0dd011ed6085cb995ff61b4&lat=-27.468&lon=153.028&cnt=3
-* Delay 
+* Delay 5s
  http://localhost:5001/data/2.5/find?appid=0a12b8f2f0dd011ed6085cb995ff61b4&lat=-33.867&lon=151.207&cnt=10 
 * Bad Request:
  http://localhost:5001/data/2.5/find?appdid=0a12b8f2f0dd011ed6085cb995ff61b4&lat=-10.500&lon=100.100&cnt=1

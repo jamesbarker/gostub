@@ -1,5 +1,4 @@
-{{define "brisbane"}}
-{
+{{define "brisbane"}}{
   "message": "accurate",
   "cod": "200",
   "count": {{ .cnt }},

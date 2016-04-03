@@ -5,24 +5,17 @@ import (
 	"text/template"
 	"log"
 	"strconv"
-)
-
-import (
-	"flag"
 	"net/url"
 	"time"
 )
 
-var port = *flag.Int("port", 5001, "Port the stub will listen to")
 var templates = template.Must(template.ParseGlob("template/*.json"))
 
 func main() {
-	log.Println("Go Stub (-h for options)")
-	flag.Parse()
-	log.Println("Go Stub Listening on port: " + strconv.Itoa(port))
+	log.Println("Go Stub Listening")
 
 	http.HandleFunc("/data/2.5/", stubHandler)
-	err := http.ListenAndServe(":" + strconv.Itoa(port), nil)
+	err := http.ListenAndServe(":5001", nil)
 	if err != nil {
 		panic(err.Error())
 	}
@@ -46,13 +39,14 @@ func stubHandler(w http.ResponseWriter, r *http.Request) {
 	case "-27.468":
 		templates.ExecuteTemplate(w, "brisbane", data)
 	case "-33.867":
-		time.Sleep(10 * time.Second)
-		templates.ExecuteTemplate(w, "sydney", data)
+		time.Sleep(5 * time.Second)
+		http.ServeFile(w, r, "data/sydney.json")
 	case "-10.500":
-		templates.ExecuteTemplate(w, "badRequest", nil)
+		http.ServeFile(w, r, "data/badRequest.json")
 	case "-10.404":
 		http.NotFound(w, r)
 	default:
-		templates.ExecuteTemplate(w, "melbourne", data)
+		log.Println("HELLO?")
+		http.ServeFile(w, r, "data/melbourne.json")
 	}
 }
